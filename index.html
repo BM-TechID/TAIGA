@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAIGA</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="navbar">
+        <nav>
+            <div class="logo">
+                <a href="#"><strong>TAI</strong>GA</a>
+            </div>
+            <div class="navbar">
+                <div class="nav-link">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#tagihan">Tagihan</a>
+                    <a href="#scan">Scan</a>
+                    <a href="#about">Tentang Kami</a>
+                </div>
+                <div class="nav-button">
+                    <button class="btn btn-login">Login</button>
+                    <button class="btn btn-sign-up">Sign Up</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HomePage -->
+    <section id="home" class="home">
+        <div class="container">
+            <div class="home-content">
+                <h2>Tagihan dan Iuran Warga Digital</h2>
+                <h1>
+                    Masih kerepotan kalau bayar Tagihan dan Iuran
+                    secara manual?<span> Yuk, kita UPGRADE!</span>
+                </h1>
+                <p>
+                    Di sini, kami menyediakan platfrom pembayaran
+                    digital untuk melakukan pembayaran iuran dan
+                    tagihan warga dalam lingkup RT secara digital.
+                    Tagihan yang dimaksud dapat berupa Tagihan
+                    Sistem Keamanan, Kebersihan, bahkan sampai
+                    Kas Warga.
+                </p>
+                <button>Yuk, mulai!</button>
+            </div>
+            <div class="home-image">
+                <img src="asset/images/home-img.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Tagihan -->
+    <section id="tagihan" class="tagihan">
+        <div class="container">
+            <h2>Fitur Tagihan</h2>
+            <h1>Tagihan apa yang mau kamu bayar?</h1>
+            <div class="card-container">
+                <a target="_top" href="tagihan.html">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-icon">
+                                <img src="asset/images/icon-wallet.png" alt="">
+                            </div>
+                            <div class="card-text">
+                                <div class="box-status">
+                                    <label for="status">Status</label>
+                                    <p id="status">Lunas</p>
+                                </div>
+                                <div class="box-count">
+                                    <label for="count">Jumlah Tagihan</label>
+                                    <p id="jml-tagihan">Rp.0;</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-title">
+                            <h4>Kas</h4>
+                        </div>
+                    </div>
+                </a>
+
+                <a target="_blank" href="tagihan.html">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-icon">
+                                <img src="asset/images/icon-trash.png" alt="">
+                            </div>
+                            <div class="card-text">
+                                <div class="box-status">
+                                    <label for="status">Status</label>
+                                    <p id="status">Lunas</p>
+                                </div>
+                                <div class="box-count">
+                                    <label for="count">Jumlah Tagihan</label>
+                                    <p id="jml-tagihan">Rp.0;</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-title">
+                            <h4>Sampah</h4>
+                        </div>
+                    </div>
+                </a>
+
+                <a target="_blank" href="tagihan.html">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-icon">
+                                <img src="asset/images/icon-security.png" alt="">
+                            </div>
+                            <div class="card-text">
+                                <div class="box-status">
+                                    <label for="status">Status</label>
+                                    <p id="status">Lunas</p>
+                                </div>
+                                <div class="box-jml">
+                                    <label for="jml-tagihan">Jumlah Tagihan</label>
+                                    <p id="jml-tagihan">Rp.0;</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-title">
+                            <h4>Keamanan</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scan -->
+    <section id="scan" class="scan">
+        <div class="container">
+            <h1>Scan QR Code Berikut</h1>
+            <div class="box-scan">
+                <img src="" alt="">
+            </div>
+            <div class="counter-down">
+                <p>Berlaku Sampai <span>03:00</span></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
